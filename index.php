@@ -6,24 +6,25 @@
 </head>
 
 <body>
-    <header>
-        <?php
-            include("views/header.html")
-        ?>
-    </header>
+    <div class="grid-container">
+        <header>
+            contenuto header
+        </header>
+            <div class="left-sidebar collapsable main-content">
+                contenuto left sidebar
+            </div>
 
-    <main>
-        <div class="about-me-container">
-
-
-        </div>
-    </main>
-
-    <footer>
-        <?php
-            include("views/footer.html")
-        ?>
-    </footer>
+            <main class="main-content">
+                contenuto main
+            </main>
+            
+            <div class="right-sidebar collapsable main-content">
+                contenuto right sidebar
+            </div>
+        <footer>
+            contenuto footer
+        </footer>
+    </div>
 </body>
 
 </html>
